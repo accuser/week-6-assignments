@@ -61,7 +61,7 @@ describe("app", () => {
     });
 
     describe("with an incorrect username parameter", () => {
-      test("succeds with 401 Unathorized", async () => {
+      test("succeds with 401 Unauthorized", async () => {
         const { statusCode } = await request(app)
           .post("/login")
           .type("form")
@@ -72,7 +72,7 @@ describe("app", () => {
     });
 
     describe("with an incorrect password parameter", () => {
-      test("succeds with 401 Unathorized", async () => {
+      test("succeds with 401 Unauthorized", async () => {
         const { statusCode } = await request(app)
           .post("/login")
           .type("form")
