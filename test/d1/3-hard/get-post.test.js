@@ -37,7 +37,7 @@ describe("app", () => {
     });
 
     describe("with some parameters", () => {
-      test("succeds with 302 Found", async () => {
+      test("succeeds with 302 Found", async () => {
         const { statusCode } = await request(app)
           .post("/data")
           .type("form")
