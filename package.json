@@ -9,7 +9,8 @@
     "test:d1:easy:shouty": "jest test/d1/1-easy/shouty --verbose --silent --runInBand",
     "test:d1:medium:login": "jest test/d1/2-medium/login --verbose --silent --runInBand",
     "test:d1:medium:webServer": "jest test/d1/2-medium/web-server --verbose --silent --runInBand",
-    "test:d1:hard:getPost": "jest test/d1/3-hard/get-post --verbose --silent --runInBand"
+    "test:d1:hard:getPost": "jest test/d1/3-hard/get-post --verbose --silent --runInBand",
+    "test:d2:easy:library": "jest test/d2/1-easy/library --verbose --silent --runInBand"
   },
   "keywords": [],
   "author": "",
