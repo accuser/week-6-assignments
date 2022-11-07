@@ -1,4 +1,4 @@
-const app = require("../../../d1/3-hard/get-post");
+const app = require("../../../d2/2-medium/get-post");
 const request = require("supertest");
 
 describe("app", () => {
